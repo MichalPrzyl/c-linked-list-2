@@ -27,6 +27,7 @@ int main() {
 
   // Add new element
   add_element_to_end_of_the_list(666, &linked_list);
+  add_element_to_end_of_the_list(1024, &linked_list);
 
   // Print list again to verify the new element is added
   print_all_nodes_from_linked_list(&linked_list);
